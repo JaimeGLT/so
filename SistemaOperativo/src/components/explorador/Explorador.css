@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    height: 70%; /* Reducimos la altura */
+    max-height: 600px;
+  }
+  
+  .file-explorer {
+    margin-top: 75%;
+
+    display: flex;
+    margin-left: 120%;
+    position: absolute;
+    flex-direction: column;
+    height: 65%; /* Reducimos la altura */
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1e1e1e;
+  }
+  
+  .main-content {
+    display: flex;
+    width: 700px; /* Ajustamos al ancho del .file-explorer */
+  }
+  
+  .icono-carpeta {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .div-carpetas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .div-carpetas:hover {
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 10px;
+  }
+  
+  .div-carpetas label {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .div-principal-carpetas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sidebar {
+    background-color: #2c2c2c;
+    width: 23%; /* Ajustamos el ancho */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .content-area {
+    flex: 1;
+    padding: 20px;
+    background-color: #1e1e1e;
+  }
+  
+  .file-item {
+    display: flex;
+    align-items: center; /* Alineamos verticalmente */
+    cursor: pointer;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+  }
+
+  .file-item:hover {
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 10px;
+  }
+  
+  .file-item img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .file-name {
+    margin-left: 10px; /* Ajustamos el margen */
+    font-size: 14px;
+    color: #ffffff;
+  }
+  

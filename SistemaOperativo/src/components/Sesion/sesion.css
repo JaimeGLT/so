@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    opacity: 0.9;
+    filter: blur(20px);
+    z-index: -1;
+  }
+  
+  .login-container {
+    position: relative;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 60px;
+    border-radius: 40px;
+    text-align: center;
+    border-radius: 0%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    /* width: 100%; */
+  }
+  
+  .login-principal {
+    background-image: url('../../images/starry-sky-2675322_1280.jpg');
+  }
+
+  .login-container .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffffff81;
+    margin-top: 10%;
+  }
+  
+  .login-box {
+    margin-top: 20px;
+  }
+  
+  .p-button {
+    padding: 10px 20px;
+    color: #fff;
+    border-color: #ffffffc9;
+    background-color: #ffffff00;
+    border-width: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .p-button:hover {
+
+    background-color: rgba(7, 7, 7, 0.801);
+  }
+
+  .usuario {
+    font-family: Arial, sans-serif;
+  }
+  

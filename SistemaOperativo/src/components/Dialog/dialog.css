@@ -1,0 +1,43 @@
+.dialog-container {
+    position: absolute;
+    margin-left: 60px;
+}
+
+.start-menus img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.start-menus {
+    margin-top: 165px;
+}
+
+#startMenuOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-menu-apagar-reiniciar {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    padding-right: 16px;
+    background-color: rgba(0, 0, 0, 0.938);
+    backdrop-filter: blur(100px);
+}
+
+.div-menu-apagar-reiniciar:hover {
+    color: black;
+    background-color: mediumvioletred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.div-menu-apagar-reiniciar p {
+    font-size: 12px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,46 @@
+#img-back-task-update {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    margin: 0;
+}
+    
+.form-123 {
+    background-color: red !important;
+}
+        
+.div-tittle-update div {
+
+    background-color: rgba(0, 0, 0, 0.226);
+    margin-bottom: 70px;
+    border-radius: 10px;
+    padding: 15px 0px ;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.div-tittle-update div:hover {
+
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.div-tittle-update {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.h2-actualizar {
+    margin-left: 120px;
+    margin-right: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex; /* Asegura que el contenido esté centrado verticalmente */
+}

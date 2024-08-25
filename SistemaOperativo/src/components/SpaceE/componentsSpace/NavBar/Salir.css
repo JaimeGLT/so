@@ -1,0 +1,19 @@
+.container-salir img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.container-cerrar {
+    text-align: center;
+    margin-left: 96%;
+}
+
+.container-cerrar:hover {
+    background-color: red;
+}
+
+.container-salir {
+    background-color: rgb(1, 4, 20);
+    text-align: right;
+}

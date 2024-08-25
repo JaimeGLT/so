@@ -1,0 +1,47 @@
+@keyframes loader {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.loader::after,
+.loader::before {
+    animation: loader 2s linear infinite;
+    content: '';
+    border: 2px solid #fff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.loader::after {
+    opacity: 0;
+    animation-delay: 1s;
+
+}
+
+.container-apagando {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.container-h2-apagando h2 {
+    color: white;
+
+}
+
+.loader {
+    margin-right: 100px;
+}

@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100% ;
+    height: 100vh;
+background: linear-gradient(100deg, #3a3935 0%, #888887 50%, #5a594e 100%) ;
+}
+
+#container-detail-tarea {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img-back-detail {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 10px;
+}
+
+.img-back-detail:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.detail-container {
+    background: rgba(0, 0, 0, 0.568);
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 0;
+    width: 850px;
+    height: 500px;
+    max-width: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 10, 0.623);
+}
+
+.body-task-detail h2 {
+    word-wrap: break-word;
+    text-align: center;
+    color: #ffffff;
+}
+
+.body-task-detail p {
+    word-wrap: break-word;
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.body-task-detail .descripcion-task-detail {
+    color: #888887;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.body-task-detail h3 {
+    font-weight: 900;
+    color: black;
+    font-size: 18px;
+}
+
+.buttons-task button {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.buttons-task {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fecha-detail-task {
+    color: #888887;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.button-1 {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+    
+.button-1:hover {
+    border: 4px solid black;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+#div-button1 {
+    margin-right: 10px;
+}
+
+.button-22 {
+    background-color: green;
+    cursor: pointer;
+    color: black;
+    border: 4px solid black;
+    font-weight: 700;
+}
+    
+.button-22:hover {
+    background-color: rgb(8, 165, 8);
+    border: 2px solid green;
+}
+
+.div-button-task {
+    width: 100%;
+}
+
+.body-task-detail {
+    flex-wrap: 1;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.detail-e-red {
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.detail-e-yellow {
+    color: yellow;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.detail-e-green {
+    color: green;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.detail-p-red {
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.detail-p-yellow {
+    color: yellow;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.detail-p-green {
+    color: green;
+    font-weight: 600;
+    font-size: 15px;
+}
+
